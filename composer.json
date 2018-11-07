@@ -1,17 +1,21 @@
 {
-    "name": "sebastian/git",
-    "description": "Simple wrapper for Git",
+    "name": "vinyvicente/git",
+    "description": "Simple wrapper for Git, based on deprecated sebastianbergmann/git",
     "keywords": ["git"],
-    "homepage": "http://www.github.com/sebastianbergmann/git",
+    "homepage": "http://www.github.com/vinyvicente/git",
     "license": "BSD-3-Clause",
     "authors": [
+        {
+            "name": "Sebastian Bergmann",
+            "email": "sebastian@phpunit.de"
+        },
         {
             "name": "Sebastian Bergmann",
             "email": "sebastian@phpunit.de"
         }
     ],
     "require": {
-        "php": ">=5.3.3"
+        "php": ">=7.0"
     },
     "autoload": {
         "classmap": [
